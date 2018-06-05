@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> REAL MADRID C.F </h1>
+
+{% load static %}
+<img src="{% static "home/home.jpg" %}" width="300" height="300" alt="My image"/>
+</br>
+</br>
+<a href="{% url 'addplayer' %}" > ADD PLAYER</a>
+</br>
+<a href="{% url 'playerlist' %}" > View PLAYER</a>
+</br>
+
+</br>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ 
+    <h1>Players</h1>
+    {% for player in object_list %}
+        <h3>{{ player.name }}</h3>
+        <h3>{{player.age}}</h3>
+        <img src =  "{{player.image.url}}" height="300"width = "240"/>
+
+    </br>
+    </br>
+    {% endfor %}
+
+
+
+</br>
+</body>
+</html>
